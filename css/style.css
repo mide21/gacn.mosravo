@@ -347,7 +347,7 @@ button.mfp-close:hover {
 }
 
 .navbar-toggler {
-    background-color: #303192;
+    background: transparent;
     border: none;
     border-radius: 0;
 }
