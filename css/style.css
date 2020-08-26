@@ -41,7 +41,7 @@ a:hover {
     text-decoration: none;
 }
 
-input:focus {
+input:focus, a:focus {
     outline: 0;
 }
 
