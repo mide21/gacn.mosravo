@@ -180,7 +180,7 @@ button.mfp-close:hover {
 }
 
 .mfp-close {
-    margin-top: -250px !important;
+    top: -270px !important;
 }
 
 /* Scroll To Top & Scroll Progress Bar */
@@ -306,17 +306,17 @@ button.mfp-close:hover {
 
 .newsroom-style {
     width: 1388px;
-    left: -570.7px;
+    left: -540.7px;
 }
 
 .photogallery-style {
     width: 1388px;
-    left: -870.65px;
+    left: -810.65px;
 }
 
 .publications-style {
     width: 1388px;
-    left: -720.867px
+    left: -690.867px;
 }
 
 .nav-item .menu li {
@@ -344,6 +344,12 @@ button.mfp-close:hover {
 
 .navbar-collapse {
     flex-grow: 0;
+}
+
+.navbar-toggler {
+    background-color: #303192;
+    border: none;
+    border-radius: 0;
 }
 
 #toggler-wrapper {
@@ -1000,11 +1006,5 @@ button.mfp-close:hover {
     .navbar li a {
         font-size: 15px;
         margin-right: 20px;
-    }
-}
-
-@media(max-width: 1300px) {
-    .mfp-close {
-        margin-top: -630px !important;
     }
 }
