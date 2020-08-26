@@ -347,9 +347,10 @@ button.mfp-close:hover {
 }
 
 .navbar-toggler {
-    background: transparent;
-    border: none;
-    border-radius: 0;
+    background-color: #303192;
+    border: none !important;
+    border-radius: 0 !important;
+    padding: 0 !important;
 }
 
 #toggler-wrapper {
