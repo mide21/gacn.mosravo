@@ -41,6 +41,10 @@ a:hover {
     text-decoration: none;
 }
 
+input:focus {
+    outline: 0;
+}
+
 ul {
     margin: 0;
     padding: 0;
@@ -63,7 +67,7 @@ li {
 }
 
 .p-7 {
-    padding: 3rem 8rem 3rem 15rem;
+    padding: 3rem 8rem 3rem 10rem;
 }
 
 .border-1 {
@@ -348,9 +352,8 @@ button.mfp-close:hover {
 
 .navbar-toggler {
     background-color: #303192;
-    border: none !important;
-    border-radius: 0 !important;
-    padding: 0 !important;
+    border: none;
+    border-radius: 0;
 }
 
 #toggler-wrapper {
