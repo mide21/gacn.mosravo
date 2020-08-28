@@ -584,7 +584,7 @@ button.mfp-close:hover {
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
     top: 60%;
-    left: 11px;
+    left: -3px;
     transition: all 0s;
 }
 
